@@ -2,11 +2,10 @@
 /**
  * Plugin Name: Yoast to REST API
  * Description: Adds Yoast fields to page and post metadata to WP REST API responses
- * Author: Niels Garve, Pablo Postigo, Tedy Warsitha, Charlie Francis
- * Author URI: https://github.com/niels-garve
+ * Authors: Niels Garve, Pablo Postigo, Tedy Warsitha, Charlie Francis, Mohamed Nagdy
+ * Main Author URI: https://github.com/niels-garve
  * Version: 1.4.1
- * Plugin URI: https://github.com/niels-garve/yoast-to-rest-api
- * Forked Plugin URI: https://github.com/mnagdycnn/yoast-to-rest-api
+ * Plugin URI: https://github.com/mnagdycnn/yoast-to-rest-api
  */
 
 namespace YoastToRest;
