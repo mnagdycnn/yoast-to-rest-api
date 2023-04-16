@@ -1,0 +1,32 @@
+{
+    "name": "cnnba/yoast-to-rest-api",
+    "description": "A plugin that registers yoast meta fields as APIs",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+      {
+        "name": "niels grave"
+      }
+    ],
+    "require": {
+      "php": ">=7.3"
+    },
+    "require-dev": {
+      "10up/phpcs-composer": "dev-master",
+      "giacocorsiglia/wordpress-stubs": "^5.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "YoastToRest\\": "./**"
+      }
+    },
+    "scripts": {
+      "lint": "phpcs .",
+      "lint-fix": "phpcbf ."
+    },
+    "config": {
+      "allow-plugins": {
+        "dealerdirect/phpcodesniffer-composer-installer": true
+      }
+    }
+  }
