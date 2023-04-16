@@ -1,5 +1,5 @@
 {
-    "name": "cnnba/yoast-to-rest-api",
+    "name": "mnagdycnn/yoast-to-rest-api",
     "description": "A plugin that registers yoast meta fields as APIs",
     "type": "wordpress-plugin",
     "license": "GPL-2.0-or-later",
