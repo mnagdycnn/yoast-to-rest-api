@@ -1,3 +1,3 @@
-# ⚠︎ I am not maintaining this plugin anymore.
+# Yoast to REST APIs
 
-Please have a look at the [README of the repository that I forked](https://github.com/wp-pwa/yoast-seo-for-wp-pwa) for further information.
+This package is forked from @niels-garve. However, it is being maintained now by Mohamed Nagdy: Full stack developer.
