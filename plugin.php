@@ -1,7 +1,4 @@
 <?php
-
-add_action( 'plugins_loaded', 'WPAPIYoast_init' );
-
 /**
  * Plugin Name: Yoast to REST API
  * Description: Adds Yoast fields to page and post metadata to WP REST API responses
@@ -9,7 +6,13 @@ add_action( 'plugins_loaded', 'WPAPIYoast_init' );
  * Author URI: https://github.com/niels-garve
  * Version: 1.4.1
  * Plugin URI: https://github.com/niels-garve/yoast-to-rest-api
+ * Forked Plugin URI: https://github.com/mnagdycnn/yoast-to-rest-api
  */
+
+namespace YoastToRest;
+
+add_action( 'plugins_loaded', 'WPAPIYoast_init' );
+
 class Yoast_To_REST_API {
 
 	protected $keys = array(
